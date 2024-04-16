@@ -9,6 +9,22 @@ class opr
       int a=o.nextInt();
       int b=o.nextInt();
       int c=a+b;
-      system.out.println("addition"+c);
+      system.out.println("addition\n"+c);
+      {
+      int d=a-b;
+      system.out.println("subration\n"+d);
+      }
+      {
+      int e=a/b;
+      system.out.println("division\n"+e);
+      }
+      {
+      int f=a%b;
+      System.out.println("modules\n"+g);
+      }
+      {   
+      int g=a*b;
+      System.out.println("multiplication\n"+g);
+      }
    }
 }
